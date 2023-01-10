@@ -1,0 +1,585 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #558F5E;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar .img-profil {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+.brand .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.brand p {
+    margin-top: 5px;
+    line-height: 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.brand h5 {
+    line-height: 0;
+    font-size: 15px;
+}
+
+.Home {
+    background-color: #E2F5F3;
+}
+
+
+
+.card {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.noscale:hover {
+    transform: scale(1);
+}
+
+.card h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #558F5E;
+}
+
+.noscale h4 {
+    margin-top: 20px;
+    color: #558F5E;
+}
+
+.noscale .doa {
+    margin-top: 0;
+}
+
+.noscale h3 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #558F5E;
+}
+
+.card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #558F5E;
+}
+
+
+
+.card p {
+    margin: 0;
+    line-height: 20px;
+    color: #A9A9A9;
+    text-decoration: none;
+}
+
+
+
+
+
+.noscale .center {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'quran';
+    src: url(./ar-Othmani.ttf);
+}
+
+.btn-active svg,
+.me-auto h5,
+.me-auto h4,
+.foot,
+.me {
+    display: none;
+}
+
+.me-auto a {
+    margin-right: 20px;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin-top: 8px;
+    color: #E2F5F3;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.me-auto a:hover {
+    color: #E2F5F3;
+    text-decoration: none;
+}
+
+.me-auto a:focus {
+
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.noscale img {
+    float: left;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.noscale p {
+    line-height: 25px;
+}
+
+@media screen and (max-width:600px) {
+
+    .noscale img {
+        margin-bottom: 10px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .me {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .background-clear {
+        display: none;
+    }
+
+    .background-black {
+        margin-top: 56px;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.548);
+        opacity: 1;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+    }
+
+    .btn-active svg {
+        display: block;
+        color: #6F7865;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .me-auto {
+        margin-left: -660px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: scale(-1);
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        min-height: 70vh;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 20px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .active-navbar {
+        transform: translate(-50%, 20%);
+        margin-left: 0;
+    }
+
+    .me-auto h5 {
+        display: block;
+        text-align: center;
+        color: #558F5E;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .me-auto h4 {
+        display: block;
+        margin-top: 30px;
+        text-align: left;
+        color: #558F5E;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .me-auto a {
+        padding: 8px 10px;
+        padding-left: 25px;
+        text-decoration: none;
+        margin-top: 8px;
+        color: #A9A9A9;
+        transition: all 0.5s ease-in-out;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .me-auto a:hover {
+
+        background-color: #558F5E;
+        text-decoration: none;
+        color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .me-auto .foot {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+        background-color: #558F5E;
+        color: #E2F5F3;
+        font-weight: bold;
+    }
+}
+
+
+
+.noscale h5 {
+    text-align: right;
+    font-family: 'quran';
+    font-size: 30px;
+}
+
+.audioclass {
+    width: 100%;
+}
+
+audio {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 0 0;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+}
+
+
+@media screen and (max-width:600px) {
+    .noscale h5 {
+        text-align: right;
+        font-family: 'quran';
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    audio {
+        height: 70px;
+    }
+}
+
+.footer {
+    background-color: #558F5E;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #E2F5F3;
+}
+
+.linkto:hover {
+    text-decoration: none;
+}
+
+.detail {
+    background-color: #E2F5F3;
+    min-height: 100vh;
+}
+
+.darkmode {
+    width: 80px;
+    height: 50px;
+    border-radius: 0 50px 50px 0;
+    color: #FFFFFF;
+    background-color: #558F5E;
+    position: fixed;
+    bottom: 80px;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeapp {
+    width: 100%;
+    min-height: 100vh;
+
+    text-align: center;
+}
+
+.homeapp h2 {
+    margin-top: 50px;
+    color: #E2F5F3;
+}
+
+.homeapp .box {
+    background-color: #E3F6F0;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .card-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 120px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.box .jam {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 20px;
+}
+
+.jam h5 {
+    font-weight: bold;
+    color: #558F5E;
+    line-height: 0;
+}
+
+.jam h4 {
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 0;
+    color: #6F7865;
+}
+
+.jam p {
+    text-align: left;
+    line-height: 20px;
+    margin-top: 5px;
+    color: #A9A9A9;
+}
+
+.box .gambar {
+    position: relative;
+    width: 45%;
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.box img {
+    width: 90%;
+}
+
+.feature {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 150px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.feature .link-fitur {
+    width: 20%;
+}
+
+.card-fitur {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-fitur img {
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.card-fitur h5 {
+    color: #6F7865;
+    font-size: 13px;
+}
+
+.quote {
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hipwee-200703-seibert-hagia-sophia-hero_awtsib.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+}
+
+.showAll {
+    margin-top: -20px;
+}
+
+.showAll button {
+    font-size: 12px;
+    border: 0;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #15B787;
+    padding: 8px 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.quote h5 {
+    font-size: 17px;
+}
+
+.quote button {
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 3px 8px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.info {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.info h4 {
+    font-weight: bold;
+    color: #6F7865;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.info h5 {
+    color: #6F7865;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.sholat {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sholat .card-sholat {
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    flex-direction: row-reverse;
+}
+
+.sholat h5 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6F7865;
+}
+
+.sholat h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6F7865;
+}
+
+.penutup {
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+    background-color: #15B787;
+}
+
+.penutup h3 {
+    line-height: 40px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
