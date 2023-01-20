@@ -39,7 +39,7 @@ function HomeApp() {
   }, []);
 
   useEffect(() => {
-    fetch(`https://api.myquran.com/v1/sholat/jadwal/1605/` + tanggal)
+    fetch(`https://api.myquran.com/v1/sholat/jadwal/1301/` + tanggal)
       .then((Response) => Response.json())
       .then((respon) => {
         setShubuh(respon.data.jadwal.subuh);
