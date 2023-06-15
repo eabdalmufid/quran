@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3dce72d.css",
-    "main.js": "/static/js/main.d635d546.js",
+    "main.js": "/static/js/main.16bbe7ce.js",
     "static/media/hipwee-200703-seibert-hagia-sophia-hero_awtsib.jpeg": "/static/media/hipwee-200703-seibert-hagia-sophia-hero_awtsib.58ac0d17651257c45256.jpeg",
     "static/media/profil.png": "/static/media/profil.4a166366d7735f1d11e3.png",
     "static/media/ar-Othmani.ttf": "/static/media/ar-Othmani.0bc3b813bbb5ae5a2e8a.ttf",
@@ -12,10 +12,10 @@
     "static/media/quran.png": "/static/media/quran.4dfacf59050be7936d28.png",
     "index.html": "/index.html",
     "main.e3dce72d.css.map": "/static/css/main.e3dce72d.css.map",
-    "main.d635d546.js.map": "/static/js/main.d635d546.js.map"
+    "main.16bbe7ce.js.map": "/static/js/main.16bbe7ce.js.map"
   },
   "entrypoints": [
     "static/css/main.e3dce72d.css",
-    "static/js/main.d635d546.js"
+    "static/js/main.16bbe7ce.js"
   ]
 }
