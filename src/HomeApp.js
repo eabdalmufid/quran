@@ -68,25 +68,25 @@ function HomeApp() {
         </Container>
       </div>
       <div className="feature">
-        <Link to="/quran/surah/" className="link-fitur">
+        <Link to="/surah/" className="link-fitur">
           <div className="card-fitur">
             <img src={quran}></img>
             <h5>Al Quran</h5>
           </div>
         </Link>
-        <Link to="/quran/surah/" className="link-fitur">
+        <Link to="/surah/" className="link-fitur">
           <div className="card-fitur">
             <img src={mosque}></img>
             <h5>Jadwal Sholat</h5>
           </div>
         </Link>
-        <Link to="/quran/story/" className="link-fitur">
+        <Link to="/story/" className="link-fitur">
           <div className="card-fitur">
             <img src={kaaba}></img>
             <h5>Kisah Nabi</h5>
           </div>
         </Link>
-        <Link to="/quran/pray/" className="link-fitur">
+        <Link to="/pray/" className="link-fitur">
           <div className="card-fitur">
             <img src={pray}></img>
             <h5>Doa Sehari hari</h5>

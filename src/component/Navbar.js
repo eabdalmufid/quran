@@ -72,16 +72,16 @@ class NavBars extends Component {
             <h5>IslamKu.Id</h5>
 
             {/* <h4>Fitur Tersedia</h4> */}
-            <Link onClick={this.handleKlik} to="/quran/">
+            <Link onClick={this.handleKlik} to="/">
               Home
             </Link>
-            <Link onClick={this.handleKlik} to="/quran/surah/">
+            <Link onClick={this.handleKlik} to="/surah/">
               Al Quran
             </Link>
-            <Link onClick={this.handleKlik} to="/quran/story/">
+            <Link onClick={this.handleKlik} to="/story/">
               Kisah Nabi
             </Link>
-            <Link onClick={this.handleKlik} to="/quran/pray/">
+            <Link onClick={this.handleKlik} to="/pray/">
               Doa Doa Sehari Hari
             </Link>
 
