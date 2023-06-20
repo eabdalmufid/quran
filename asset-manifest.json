@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3dce72d.css",
-    "main.js": "/static/js/main.0336dbbf.js",
-    "static/media/hipwee-200703-seibert-hagia-sophia-hero_awtsib.jpeg": "/static/media/hipwee-200703-seibert-hagia-sophia-hero_awtsib.58ac0d17651257c45256.jpeg",
-    "static/media/profil.png": "/static/media/profil.4a166366d7735f1d11e3.png",
-    "static/media/ar-Othmani.ttf": "/static/media/ar-Othmani.0bc3b813bbb5ae5a2e8a.ttf",
-    "static/media/praying.png": "/static/media/praying.cd16daa6f34123346d20.png",
-    "static/media/mosque.png": "/static/media/mosque.47b3844200720dafadf4.png",
-    "static/media/masque.png": "/static/media/masque.cf2ea78dcc34dac7fd2f.png",
-    "static/media/kaaba.png": "/static/media/kaaba.1c56bfcc9ca5a67c45bc.png",
-    "static/media/quran.png": "/static/media/quran.4dfacf59050be7936d28.png",
-    "index.html": "/index.html",
-    "main.e3dce72d.css.map": "/static/css/main.e3dce72d.css.map",
-    "main.0336dbbf.js.map": "/static/js/main.0336dbbf.js.map"
+    "main.css": "/quran/static/css/main.07272946.css",
+    "main.js": "/quran/static/js/main.c67ce874.js",
+    "static/media/hipwee-200703-seibert-hagia-sophia-hero_awtsib.jpeg": "/quran/static/media/hipwee-200703-seibert-hagia-sophia-hero_awtsib.58ac0d17651257c45256.jpeg",
+    "static/media/profil.png": "/quran/static/media/profil.4a166366d7735f1d11e3.png",
+    "static/media/ar-Othmani.ttf": "/quran/static/media/ar-Othmani.0bc3b813bbb5ae5a2e8a.ttf",
+    "static/media/praying.png": "/quran/static/media/praying.cd16daa6f34123346d20.png",
+    "static/media/mosque.png": "/quran/static/media/mosque.47b3844200720dafadf4.png",
+    "static/media/masque.png": "/quran/static/media/masque.cf2ea78dcc34dac7fd2f.png",
+    "static/media/kaaba.png": "/quran/static/media/kaaba.1c56bfcc9ca5a67c45bc.png",
+    "static/media/quran.png": "/quran/static/media/quran.4dfacf59050be7936d28.png",
+    "index.html": "/quran/index.html",
+    "main.07272946.css.map": "/quran/static/css/main.07272946.css.map",
+    "main.c67ce874.js.map": "/quran/static/js/main.c67ce874.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3dce72d.css",
-    "static/js/main.0336dbbf.js"
+    "static/css/main.07272946.css",
+    "static/js/main.c67ce874.js"
   ]
 }
