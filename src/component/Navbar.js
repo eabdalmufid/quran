@@ -87,10 +87,10 @@ class NavBars extends Component {
 
             <h4>Kontak Developer</h4>
             <div className="me">
-              <a href="https://github.com/eabdalmufid_">Github</a>
+              <a href="https://github.com/eabdalmufid">Github</a>
             </div>
 
-            <div className="foot">@eabdalmufid_</div>
+            <div className="foot">@eabdlmufid</div>
           </div>
         </Container>
       </Navbar>
